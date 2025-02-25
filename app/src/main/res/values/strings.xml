@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Api Checker</string>
+    <string name="default_text">Write your target</string>
+    <string name="TextView1">Reponse JSON</string>
+    <string name="button_text">Submit</string>
+    <string name="button_text1">OFF</string>
+
+</resources>

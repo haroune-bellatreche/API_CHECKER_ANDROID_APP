@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="320dp"
+        android:text="@string/default_text" />
+
+
+    <!-- Bouton -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="150dp" />
+
+    <TextView
+        android:id="@+id/TXTREP"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="420dp"
+
+        android:text="Reponse Json" />
+
+    <TextView
+        android:id="@+id/TXTREP1"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="390dp"
+        android:text="Reponse Json" />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="50dp"
+        android:text="Reset target" />
+
+
+</FrameLayout>
